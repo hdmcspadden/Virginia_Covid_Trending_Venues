@@ -1,5 +1,5 @@
-# Virginia Covid Trending Venues
-Used for IBM Data Science Capstone project, this repository contains work towards analysis of trending business venues in Virginia zip codes with high covid transmission per capita as of December 2020.
+# Venues in High COVID-19 Per Capita Virginia Zip Codes
+Used for IBM Data Science Capstone project, this repository contains work towards analysis of business venues in Virginia zip codes with high covid transmission per capita as of December 2020.
 
 ## Data Sources
 Data Sources are:
@@ -13,12 +13,13 @@ Data Sources are:
   * COVID-19 Case Count (cummulative)
   
 * **FourSquare Venues Endpoint** (https://developer.foursquare.com/docs/places-api/endpoints/)
-Use trending venues, collected from several times over several days to get a good picture of current trending venues.
+Use "trending" or "explore" venues. If trending venues are available they must be collected from several times over several days to get a good picture of trending venues.
   * Venue ID
   * Name
   * Location
   * Categories
 
 Will use venue categories to determine whether specific venue categories in a zip code are correlated with higher per capita covid COVID rates in that zip code. This analysis is limited because we know that people travel to venues outside their residential zip code.
+
 
 
